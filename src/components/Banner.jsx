@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 export const Banner = () => {
 
     return (
-        <section className='bg-[url(/public/image1.png)] sm:flex bg-top  w-full h-screen bg-no-repeat bg-cover my-0 animate__animated animate__zoomInUp animate__slower  '>
+        <section className='bg-[url(/image1.png)] sm:flex bg-top  w-full h-screen bg-no-repeat bg-cover my-0 animate__animated animate__zoomInUp animate__slower  '>
 
             <div className='sm:flex grid  w-full items-center  gap-6 sm:justify-around sm:items-end px-4 py-5 sm:mt-15'>
 
@@ -38,4 +38,3 @@ export const Banner = () => {
     )
 };
 
-// sm:grid w-full  h-full right-4 overflow-x-hidden  mt-4 bg-no-repeat   

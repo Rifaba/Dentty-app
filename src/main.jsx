@@ -17,14 +17,11 @@ createRoot(document.getElementById('root')).render(
     <Navbar></Navbar>
     <Routes>
       <Route index element={<Home/>}></Route>  
-          {/* <Route path to="/" element={<Navbar/>}></Route> */}
             <Route path="home" element={<Home/>}></Route>
             <Route path="team" element={<Team/>}></Route>
             <Route path="price list" element={<Pricelist/>}></Route>
             <Route path="contact" element={<Contact />}></Route>
             <Route path="service" element={<Services />}></Route>
-            
-      
     </Routes>
     <App />
   </BrowserRouter>

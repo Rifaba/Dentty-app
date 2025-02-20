@@ -23,8 +23,6 @@ export const Contact = () => {
        
     };
 
-   
-    
     return (
         <section className='flex justify-center px-7 '>
               
@@ -58,36 +56,40 @@ export const Contact = () => {
                             id="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            // onSubmit={handleReset}
-                                ref={emailRef}
-                                type="email"
-                                placeholder="Enter your email"
-                                className='py-1 px-2   text-base outline-0 font-light'>
+                            ref={emailRef}
+                            type="email"
+                            placeholder="Enter your email"
+                            className='py-1 px-2   text-base outline-0 font-light'>
                                 </input>  
                     </div>
                             
                     <div className='grid'>
                         <label htmlFor='message'
-                           
-                            className='py-1 px-2 mb-2 text-base'>Message</label>
+                            className='py-1 px-2 mb-2 text-base'>Message
+                        </label>
                         <textarea required 
                             id="text"
                             value={text}
                             onChange={(e) => setText(e.target.value)}
                             ref={textRef}
-                                className='py-5 px-3 resize rounded-md text-base mb-4 font-light  outline-1 -outline-offset-1 outline-gray-400 focus:outline-1 focus:outline-[#28323f]'></textarea>
+                            className='py-5 px-3 resize rounded-md text-base mb-4 font-light  outline-1 -outline-offset-1 outline-gray-400 focus:outline-1 focus:outline-[#28323f]'>
+                        </textarea>
                     </div>
                     
                     <div className='flex gap-3 px-2'>
                         <input
-                                type="checkbox"
-                                className='outline-[#28323f] '
-                            ></input>
-                            <p>I accept the <a className='text-[#28323f]'>Terms of Service</a></p>
+                            type="checkbox"
+                            className='outline-[#28323f]'>
+                        </input>
+                        <p>I accept the <a className='text-[#28323f]'>Terms of Service</a>
+                        </p>
                     </div>
 
-                    <div className='flex justify-center items-center rounded-xl px-3 py-3 mt-3.5'>
+                    <div
+                        className='flex justify-center items-center rounded-xl px-3 py-3 mt-3.5'>
+                        
                         <button className='rounded-xl bg-[#28323f] text-white w-full  py-3 hover:scale-105' type='submit'>Submit</button>
+
                     </div>
                 <Toaster richColors/>
                 </form>

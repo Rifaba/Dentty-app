@@ -15,7 +15,7 @@ export const Hero = () => {
         let time = `${hours}:${minutes}`;
 
         setDay(`${today}, ${time}`);
-    }, [])
+    }, []);
     
     
     return (
@@ -33,12 +33,12 @@ export const Hero = () => {
                     <p className='text-nowrap'>Monday-Tuesday : 09:00 - 21:00</p>
                     <p className='text-nowrap'>Friday : 09:00 - 19:00</p>
                     <p className='text-nowrap'>Saturday : 11:00 - 16:00</p>
-               
                 </div>
                 
                 <div className='mt-5 flex animate__animated animate__slideInRight'>
                 <p className=' bg-slate-400/40 rounded-xl text-nowrap text-center px-3 py-3'>Today is {day}</p>
                 </div>
+                
             </div>
             
         </section>

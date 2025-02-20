@@ -4,6 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { Solutions, Company, Support, Legal } from '../Data';
 
 export const Footer = () => {
+    
     return (
       
         <section className='bg-[#e9e9e9] px-3 py-2  w-full sm:flex grid-cols-2  justify-between items-center text-nowrap gap-3 animate__animated animate__slideInRight animate__delay-4s'>
