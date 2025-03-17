@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLink to="/home"><h2 className='text-l '>DENTTY</h2></NavLink>
       </div>
 
-      <div className=' bg-slate-400/40 rounded-xl hidden md:flex px-5 py-2'>
+      <div className=' bg-slate-400/40 rounded-xl hidden sm:flex px-5 py-2'>
         <ul className=' text-nowrap flex justify-between items-center md:gap-12 '>
           <NavLink to="/home"
           style={({ isActive }) => {
