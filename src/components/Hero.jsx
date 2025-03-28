@@ -29,7 +29,7 @@ export const Hero = () => {
       </div>
 
       <div className="my-4">
-        <div className="animate__animated animate__slideInRight">
+        <div>
           <h5 className="text-nowrap font-bold text-xl mb-3">Practice Hours</h5>
           <p className="text-nowrap">Monday-Tuesday : 09:00 - 21:00</p>
           <p className="text-nowrap">Friday : 09:00 - 19:00</p>
