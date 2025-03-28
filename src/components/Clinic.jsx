@@ -2,7 +2,7 @@ import React from "react";
 
 export const Clinic = () => {
   return (
-    <section className="bg-[#e9e9e9] w-full justify-between items-center px-5  animate__animated animate__slideInRight animate__delay-3s	 ">
+    <section className="bg-[#e9e9e9] w-full justify-between items-center px-5  ">
       <div className="">
         <p className="font-extralight text-[#28323f] mb-5">
           Wide range of services
