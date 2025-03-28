@@ -7,7 +7,7 @@ export const Footer = () => {
     
     return (
       
-        <section className='bg-[#e9e9e9] px-3 py-2  w-full sm:flex grid-cols-2  justify-between items-center text-nowrap gap-3 animate__animated animate__slideInRight animate__delay-4s'>
+        <section className='bg-[#e9e9e9] px-3 py-2  w-full sm:flex grid-cols-2  justify-between items-center text-nowrap gap-3'>
 
             <div className='m-3' >
                 <h2 className='bg-[#28323f] w-20 px-4 py-1 flex mb-4 justify-center text-white text-xl rounded-xl '>Dentty</h2>
