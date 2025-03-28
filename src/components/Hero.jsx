@@ -18,11 +18,11 @@ export const Hero = () => {
   return (
     <section className="sm:flex w-full text-white justify-between bg-[#567daa] items-center px-8 py-4 mb-2  gap-6">
       <div className="">
-        <h1 className="md:text-8xl   text-5xl mb-5 text-nowrap animate__animated animate__slideInLeft">
+        <h1 className="md:text-8xl   text-5xl mb-5 text-nowrap ">
           Your Smile
         </h1>
         <span>
-          <h1 className="md:text-8xl text-5xl text-nowrap animate__animated animate__slideInRight duration-700 transition-all">
+          <h1 className="md:text-8xl text-5xl text-nowrap  duration-700 transition-all">
             Comes First
           </h1>
         </span>
