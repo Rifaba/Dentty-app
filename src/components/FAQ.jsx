@@ -9,7 +9,7 @@ export const FAQ = () => {
 
     return (
     
-        <section className='bg-[#28323f] w-full grid sm:grid-cols-1 justify-between px-5 py-3 mb-4 animate__animated animate__slideInLeft animate__delay-4s'>
+        <section className='bg-[#28323f] w-full grid sm:grid-cols-1 justify-between px-5 py-3 mb-4'>
           
             <div className='my-4 text-white'>
                 <p className='font-extralight mb-5'>Answer all questions</p>
